@@ -2,6 +2,7 @@ import starter from "../assets/Restarant/stater.png";
 import Main from "../assets/Restarant/main.png";
 import salad from "../assets/Restarant/salad.png";
 import seaFood from "../assets/Restarant/seaFood.png";
+import Reservation from "./Reservation";
 const Recomendation = () => {
   return (
     <div className="bg-[#191b1b]">
@@ -51,6 +52,8 @@ const Recomendation = () => {
     </div>
 
      </div>
+
+     <Reservation></Reservation>
     </div>
   );
 };
