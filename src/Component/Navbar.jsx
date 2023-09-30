@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar fixed z-10  bg-opacity-0 bg-[#191b1b] text-white ">
       <div className="navbar-start">
+        {/* dropdown here which show for small device */}
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -53,6 +54,9 @@ const Navbar = () => {
 
         <img className="w-[140px] ml-12" src={NavLogo} alt="" />
       </div>
+
+    {/* This is for Navbar route which show only large device */}
+
       <div className="navbar-center hidden lg:flex px-48  ">
         <ul className="menu menu-horizontal px-12 text-xl  font-sans font-semibold">
           <li>
